@@ -146,32 +146,6 @@ if manager.upload_backup(backup_files):
 - `EXCLUDE_INSTALL_DIRS`: 排除的安装目录列表
 - `EXCLUDE_KEYWORDS`: 排除的关键词列表
 
-### 日志配置
-
-日志文件默认保存在：`%USERPROFILE%\.dev\AutoBackup\backup.log`
-
-- `LOG_FILE`: 日志文件路径
-- `BACKUP_ROOT`: 备份根目录
-
-## 备份内容
-
-### 备份的文件类型
-
-**文档类型：**
-- `.txt`, `.xls`, `.xlsx`, `.et`, `.one`, `.js`, `.py`, `.go`, `.sh`, `.ts`, `.jsx`, `.tsx`
-- `.bash`, `.sol`, `.rs`, `.json`, `.csv`, `.wallet`, `.bin`, `ps1`, `.rtf`
-
-**配置类型：**
-- `.pem`, `.key`, `.pub`, `.xml`, `.ini`, `.asc`, `.gpg`, `.pgp`
-- `.config`, `id_rsa`, `id_ecdsa`, `id_ed25519`, `.keystore`, `.utc`
-
-### Windows数据备份
-
-- 记事本临时文件
-- 截图文件
-- 便签数据
-- 浏览器扩展数据
-
 ## 系统要求
 
 - Python 3.7+
